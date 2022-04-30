@@ -1,0 +1,333 @@
+
+body {
+position: relative;
+width: 1600px;
+height: 1880px;
+font-family: Roboto, Raleway;
+background: #FFFFFF;
+text-decoration: none;
+}
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+.header {
+position: absolute;
+width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px;
+}
+.logo {
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+color: #212121;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-decoration: none;
+}
+.accent-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #2196F3;
+}
+.header-studio {
+    position: absolute;
+    width: 294px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+}
+.studio {
+    position: absolute;
+    width: 49px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #212121;
+}
+.studio:focus,
+.studio:hover {
+    color: #2196F3;
+}
+.header-portfolio {
+position: absolute;
+width: 77px;
+height: 16px;
+left: 552px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #212121;
+
+}
+.header-portfolio:focus,
+.header-portfolio:hover {
+    color: #2196F3;
+}
+.contacts {
+position: absolute;
+width: 68px;
+height: 16px;
+left: 679px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #212121;
+}
+.contacts:focus,
+.contacts:hover {
+    color: #2196F3;
+}
+.mail {
+position: absolute;
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #757575;
+}
+.tel {
+position: absolute;
+width: 122px;
+height: 16px;
+left: 1263px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #757575;
+}
+
+.hero {
+    position: absolute;
+    width: 1170px;
+    height: 1360px;
+    left: 215px;
+    top: 174px;
+}
+.filters {
+    position: absolute;
+    width: 611px;
+    height: 54px;
+    left: 495px;
+    top: 19px;
+}
+button {
+    background-color: white;
+    cursor: pointer;
+}
+.filters button:hover,
+.filters button:focus {
+    background-color:  #2196F3;;
+}
+.pg1 {
+position: absolute;
+width: 370px;
+height: 404px;
+left: 215px;
+top: 262px;
+}
+.pg2 {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 262px;
+}
+.pg3 {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 262px;
+}
+.pg4 {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 696px;
+}
+.pg5 {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 696px;
+}
+.pg6 {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 696px;
+}
+.pg7 {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 1130px;
+}
+.pg8 {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 1130px;
+}
+.pg9 {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 1130px;
+}
+.footer {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1760px;
+    background: #2F303A;
+}
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;    
+    letter-spacing: 0.06em;
+    color: #212121;
+    text-decoration: none;
+}
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-decoration: none;
+}
+.address {
+    position: absolute;
+    width: 231px;
+    height: 81px;
+    left: 215px;
+    top: 88px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    
+   
+}
+.map{
+   font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.mail1 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-decoration: none;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+.tel1 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-decoration: none;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+.logo1 {
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 43px;
+color:white;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-decoration: none;
+}
+.accent-logo1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #2196F3;
+}
