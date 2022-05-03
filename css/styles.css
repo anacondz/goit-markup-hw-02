@@ -1,9 +1,6 @@
 
 body {
-position: relative;
-width: 1600px;
-height: 1880px;
-font-family: Roboto, Raleway;
+font-family: 'Roboto';
 background: #FFFFFF;
 text-decoration: none;
 }
@@ -12,21 +9,12 @@ ul {
     text-decoration: none;
 }
 .header {
-position: absolute;
-width: 1600px;
-height: 80px;
-left: 0px;
-top: 0px;
+
 }
 .logo {
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
+
 color: #212121;
 font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
@@ -35,7 +23,6 @@ text-decoration: none;
 }
 .accent-logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -44,21 +31,11 @@ text-decoration: none;
     color: #2196F3;
 }
 .header-studio {
-    position: absolute;
-    width: 294px;
-    height: 16px;
-    left: 71px;
-    top: -13px;
+   
 }
 .studio {
-    position: absolute;
-    width: 49px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
     
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -71,14 +48,8 @@ text-decoration: none;
     color: #2196F3;
 }
 .header-portfolio {
-position: absolute;
-width: 77px;
-height: 16px;
-left: 552px;
-top: 32px;
 
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -92,14 +63,8 @@ color: #212121;
     color: #2196F3;
 }
 .contacts {
-position: absolute;
-width: 68px;
-height: 16px;
-left: 679px;
-top: 32px;
 
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -112,14 +77,8 @@ color: #212121;
     color: #2196F3;
 }
 .mail {
-position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
 
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -128,14 +87,8 @@ text-decoration: none;
 color: #757575;
 }
 .tel {
-position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
 
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -145,18 +98,10 @@ color: #757575;
 }
 
 .hero {
-    position: absolute;
-    width: 1170px;
-    height: 1360px;
-    left: 215px;
-    top: 174px;
+
 }
 .filters {
-    position: absolute;
-    width: 611px;
-    height: 54px;
-    left: 495px;
-    top: 19px;
+ 
 }
 .button {
     background-color: white;
@@ -180,79 +125,37 @@ color: #757575;
     color: #F5F4FA;
 }
 .pg1 {
-position: absolute;
-width: 370px;
-height: 404px;
-left: 215px;
-top: 262px;
+
 }
 .pg2 {
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 615px;
-    top: 262px;
+  
 }
 .pg3 {
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 1015px;
-    top: 262px;
+   
 }
 .pg4 {
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 696px;
+ 
 }
 .pg5 {
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 615px;
-    top: 696px;
 }
 .pg6 {
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 1015px;
-    top: 696px;
+   
 }
 .pg7 {
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 1130px;
+  
 }
 .pg8 {
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 615px;
-    top: 1130px;
+  
 }
 .pg9 {
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 1015px;
-    top: 1130px;
+ 
 }
 .footer {
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 1860px;
+   
     background: #2F303A;
 }
 h2 {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;    
@@ -262,7 +165,6 @@ h2 {
 }
 p {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -271,11 +173,6 @@ p {
     text-decoration: none;
 }
 .address {
-    position: absolute;
-    width: 231px;
-    height: 81px;
-    left: 215px;
-    top: 88px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -284,11 +181,9 @@ p {
     text-decoration: none;
     letter-spacing: 0.03em;
     
-   
 }
 .map{
    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -320,11 +215,6 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 .logo1 {
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 43px;
 color:white;
 font-family: 'Raleway';
 font-style: normal;
@@ -336,7 +226,6 @@ text-decoration: none;
 }
 .accent-logo1 {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -345,23 +234,13 @@ text-decoration: none;
     color: #2196F3;
 }
 .shapka {
-    position: absolute;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
+   
     
     background: #2F303A;
 }
 .zagolovki {
-    position: absolute;
-    width: 376px;
-    height: 42px;
-    left: 450px;
-    top: -72px;
     
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -371,18 +250,11 @@ text-decoration: none;
     color: #212121;
 }
 .zagolovok {
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
-    
+   
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    
     
     text-align: center;
     letter-spacing: 0.06em;
@@ -392,14 +264,8 @@ text-decoration: none;
 }
 .usluga,
 .usluga:hover {
-    position: absolute;
-    width: 155px;
-    height: 46px;
-    left: 732px;
-    top: 440px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
+   
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -412,43 +278,21 @@ text-decoration: none;
     color: #FFFFFF;
 }
 .osobenosti {
-position: absolute;
-width: 1170px;
-height: 101px;
-left: 80px;
-top: -67px;
+
     }
     .ft1 {
-position: absolute;
-width: 270px;
-height: 101px;
-left: 215px;
-top: 774px;
+
     }
     .ft2 {
-position: absolute;
-width: 270px;
-height: 101px;
-left: 515px;
-top: 774px;
+
     }
     .ft3 {
-position: absolute;
-width: 270px;
-height: 101px;
-left: 815px;
-top: 774px;
+
     }
     .ft4 {
-position: absolute;
-width: 270px;
-height: 101px;
-left: 1115px;
-top: 774px;
     }
 .zag {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -459,7 +303,6 @@ top: 774px;
 }
 .zag-text {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -469,19 +312,10 @@ top: 774px;
     color: #757575;
 }
 .zanimaemsya {
-position: absolute;
-width: 1170px;
-height: 386px;
-left: 215px;
-top: 969px;
+
 }
 .nasha {
-    position: absolute;
-    width: 376px;
-    height: 42px;
-    left: 530px;
-    top: -72px;
-    
+   
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -493,41 +327,21 @@ top: 969px;
     color: #212121;
 }
 .box1 {
-    position: absolute;
-    width: 370px;
-    height: 294px;
-    left: 71px;
-    top: 63px;
+   
     }
 .box2 {
-position: absolute;
-width: 370px;
-height: 294px;
-left: 463px;
-top: 63px;
+
 }
 .box3 {
-position: absolute;
-width: 370px;
-height: 294px;
-left: 844px;
-top: 63px;
+
 }
 .komanda {
-        position: absolute;
-        width: 1429px;
-        height: 405px;
-        left: 88px;
-        top: 1434px;
+   
         background: #F5F4FA;
 
 }
 .tm1 {
-position: absolute;
-width: 270px;
-height: 368px;
-left: 30px;
-top: 20px;
+
 background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -535,11 +349,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 border-radius: 0px 0px 4px 4px;
 }
 .tm2 {
-position: absolute;
-width: 270px;
-height: 368px;
-left: 355px;
-top: 20px;
+
 background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -547,11 +357,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 border-radius: 0px 0px 4px 4px;
 }
 .tm3 {
-position: absolute;
-width: 270px;
-height: 368px;
-left: 747px;
-top: 20px;
+
 background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -559,13 +365,8 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 border-radius: 0px 0px 4px 4px;
 }
 .tm4 {
-    position: absolute;
-    width: 270px;
-    height: 368px;
-    left: 1109px;
-    top: 20px;
+   
 background: #FFFFFF;
-/* material shadow v1 */
 
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -574,11 +375,9 @@ border-radius: 0px 0px 4px 4px;
 }
 .tm1-1 {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
     
     text-align: center;
     letter-spacing: 0.03em;
@@ -587,14 +386,11 @@ border-radius: 0px 0px 4px 4px;
 }
 .tm-p {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
     
     text-align: center;
     letter-spacing: 0.03em;
     
-    color: #212121;
-}
+    color: #757575;
