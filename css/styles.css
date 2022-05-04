@@ -22,12 +22,7 @@ letter-spacing: 0.03em;
 text-decoration: none;
 }
 .accent-logo {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-decoration: none;
+
     color: #2196F3;
 }
 .header-studio {
@@ -35,7 +30,6 @@ text-decoration: none;
 }
 .studio {
     
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -49,7 +43,7 @@ text-decoration: none;
 }
 .header-portfolio {
 
-font-family: 'Roboto';
+
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -64,7 +58,6 @@ color: #212121;
 }
 .contacts {
 
-font-family: 'Roboto';
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -78,8 +71,7 @@ color: #212121;
 }
 .mail {
 
-font-family: 'Roboto';
-font-weight: 500;
+
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
@@ -88,8 +80,7 @@ color: #757575;
 }
 .tel {
 
-font-family: 'Roboto';
-font-weight: 500;
+
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
@@ -101,7 +92,13 @@ color: #757575;
 
 }
 .filters {
- 
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.03em;
+
+color: #212121;
 }
 .button {
     background-color: white;
@@ -124,58 +121,29 @@ color: #757575;
     background-color:  #2196F3;
     color: #F5F4FA;
 }
-.pg1 {
+.pg {
+text-decoration: none;
+}
 
-}
-.pg2 {
-  
-}
-.pg3 {
-   
-}
-.pg4 {
- 
-}
-.pg5 {
-}
-.pg6 {
-   
-}
-.pg7 {
-  
-}
-.pg8 {
-  
-}
-.pg9 {
- 
-}
 .footer {
-   
     background: #2F303A;
 }
-h2 {
-    font-family: 'Roboto';
-    font-weight: 700;
+.name-pg {
     font-size: 18px;
     line-height: 36px;    
     letter-spacing: 0.06em;
+    
     color: #212121;
-    text-decoration: none;
 }
-p {
-    font-family: 'Roboto';
-    font-weight: 400;
+.desc-p {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 30px;    
     letter-spacing: 0.03em;
+    
     color: #757575;
-    text-decoration: none;
 }
 .address {
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     text-decoration: none;
@@ -183,8 +151,7 @@ p {
     
 }
 .map{
-   font-family: 'Roboto';
-    font-weight: 400;
+
     font-size: 14px;
     line-height: 24px;
     
@@ -193,8 +160,6 @@ p {
     color: #FFFFFF;
 }
 .mail1 {
-font-family: 'Roboto';
-font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 text-decoration: none;
@@ -203,8 +168,7 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 .tel1 {
-font-family: 'Roboto';
-font-weight: 400;
+
 font-size: 14px;
 line-height: 24px;
 text-decoration: none;
@@ -222,12 +186,7 @@ letter-spacing: 0.03em;
 text-decoration: none;
 }
 .accent-logo1 {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-decoration: none;
+    
     color: #2196F3;
 }
 .shapka {
@@ -237,7 +196,6 @@ text-decoration: none;
 }
 .zagolovki {
     
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -289,7 +247,6 @@ text-decoration: none;
     .ft4 {
     }
 .zag {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -299,8 +256,6 @@ text-decoration: none;
     color: #212121;
 }
 .zag-text {
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
 
@@ -313,7 +268,6 @@ text-decoration: none;
 }
 .nasha {
    
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -370,7 +324,6 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 border-radius: 0px 0px 4px 4px;
 }
 .tm1-1 {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -381,8 +334,6 @@ border-radius: 0px 0px 4px 4px;
     color: #212121;
 }
 .tm-p {
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     
