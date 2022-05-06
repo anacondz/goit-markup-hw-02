@@ -103,6 +103,7 @@ color: #212121;
 .button {
     background-color: white;
     cursor: pointer;
+    font-family: inherit;
 }
 .button.primary {
     background: #2196F3; 
@@ -114,7 +115,7 @@ color: #212121;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    
+    font-family: inherit;
     text-align: center;
     letter-spacing: 0.03em;
  
@@ -125,7 +126,7 @@ color: #212121;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    
+    font-family: inherit;
     text-align: center;
     letter-spacing: 0.03em;
     
@@ -135,6 +136,7 @@ color: #212121;
 .button:focus {
     background-color:  #2196F3;
     color: #F5F4FA;
+    font-family: inherit;
 }
 .pg {
 text-decoration: none;
@@ -145,7 +147,7 @@ text-decoration: none;
 }
 .name-pg {
     font-size: 18px;
-    line-height: 36px;    
+    line-height: 2px;    
     letter-spacing: 0.06em;
     
     color: #212121;
